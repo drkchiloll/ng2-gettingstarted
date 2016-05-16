@@ -18,16 +18,16 @@
     "rewriteTsconfig": true
   },
   "filesGlob": [
+    "app/app.component.ts",
     "app/products/product-detail.component.ts",
     "app/home/welcome.component.ts",
     "app/products/product-list.component.ts",
-    "app/app.component.ts",
     "typings/main.d.ts"
   ],
   "files": [
+    "app/app.component.ts",
     "app/products/product-detail.component.ts",
     "app/home/welcome.component.ts",
-    "app/products/product-list.component.ts",
-    "app/app.component.ts"
+    "app/products/product-list.component.ts"
   ]
 }
