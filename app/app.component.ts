@@ -7,6 +7,7 @@ import { ROUTER_PROVIDERS, Routes, ROUTER_DIRECTIVES } from '@angular/router';
 import { ProductListComponent } from './products/product-list.component';
 import { ProductService } from './products/product.service';
 import { WelcomeComponent } from './home/welcome.component';
+import { ProductDetailComponent } from './products/product-detail.component';
 
 @Component({
   selector: 'pm-app',
@@ -44,6 +45,9 @@ import { WelcomeComponent } from './home/welcome.component';
 }, {
   path: '/products',
   component: ProductListComponent
+}, {
+  path: '/product/:id',
+  component: ProductDetailComponent
 }])
 
 export class AppComponent {
