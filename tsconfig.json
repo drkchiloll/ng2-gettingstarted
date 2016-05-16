@@ -18,7 +18,16 @@
     "rewriteTsconfig": true
   },
   "filesGlob": [
+    "app/products/product-detail.component.ts",
+    "app/home/welcome.component.ts",
+    "app/products/product-list.component.ts",
+    "app/app.component.ts",
     "typings/main.d.ts"
   ],
-  "files": []
+  "files": [
+    "app/products/product-detail.component.ts",
+    "app/home/welcome.component.ts",
+    "app/products/product-list.component.ts",
+    "app/app.component.ts"
+  ]
 }
