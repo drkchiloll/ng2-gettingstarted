@@ -12,7 +12,7 @@ export class ProductService {
   getProducts(): Observable<Product[]> {
     return this._http.get(this._productUrl)
       .map((response: Response) => <Product[]>response.json())
-      .do(data => console.log('All: ' + JSON.stringify(data)))
+      // .do(data => console.log('All: ' + JSON.stringify(data)))
       .catch(this._handleError);
   }
 

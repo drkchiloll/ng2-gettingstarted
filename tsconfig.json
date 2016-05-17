@@ -28,6 +28,7 @@
     "app/app.component.ts",
     "app/products/product-detail.component.ts",
     "app/home/welcome.component.ts",
-    "app/products/product-list.component.ts"
+    "app/products/product-list.component.ts",
+    "app/shared/star.component.ts"
   ]
 }
